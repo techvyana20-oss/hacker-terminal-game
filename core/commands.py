@@ -1,5 +1,13 @@
 import random
 
+print("""
+Mission Guide:
+1. scan → find target
+2. connect → connect system
+3. inject → inject payload
+4. decrypt → crack password
+""")
+
 def command_mode(player, level):
     connected = False
     injected = False
